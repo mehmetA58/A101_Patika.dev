@@ -90,15 +90,15 @@ public class BaseTest {
 
     }
 
-//    @AfterClass
-//    public synchronized void tearDown() throws Exception {
-//        if (driver != null) {
-//            driver.close();
-//        }
-//        driver = null;
-//
-//
-//    }
+    @AfterClass
+    public synchronized void tearDown() throws Exception {
+        if (driver != null) {
+            driver.close();
+        }
+        driver = null;
+
+
+    }
 
 
 }

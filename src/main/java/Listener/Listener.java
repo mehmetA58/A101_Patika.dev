@@ -35,7 +35,7 @@ public class Listener extends BaseTest implements ITestListener {
     @Override
     public void onFinish(ITestContext iTestContext) {
         LOGGER.info("I am in onFinish method " + iTestContext.getName());
-        ExtentManager.extentReports.flush();
+        //ExtentManager.extentReports.flush();
     }
 
     @Override

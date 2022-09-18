@@ -36,13 +36,13 @@ public class AddressPage extends BaseStepMethod {
 
     public void click_To_adres_olustur(){
         LOGGER.info("User click yeni adres olustur butonuna");
-        getTest().info("User click yeni adres olustur butonuna in Addres Page");
+        getTest().info("User yeni adres olustur butonuna tiklar  Addres Page de");
 
         clickElement(BTN_ADDRESSPAGE_ADRES_OLUSTUR);
     }
     public void set_To_Text_adress() throws InterruptedException {
         LOGGER.info("User  yeni adres olustur inputlarinin doldurur");
-        getTest().info("User yeni adres olustur inputlarinin doldurur in Addres Page");
+        getTest().info("User yeni adres olustur inputlarinin doldurur  Addres Page de ");
 
         Faker faker=new Faker();
 
@@ -69,6 +69,8 @@ public class AddressPage extends BaseStepMethod {
         clickElement(RADIOBTN_ORDERCHECKOUTPAGE_KARGO);
     }
     public void click_Kaydet_Devamet_button(){
+        LOGGER.info("User  Kaydet ve Devam Et butonuna tiklar");
+        getTest().info("User  Kaydet ve Devam Et butonuna tiklar Adress Page de");
         clickElement(BTN_ADRESSPAGE_KAYDET_DEVAMET);
     }
 }

@@ -31,7 +31,10 @@ public class Case extends BaseTest {
         allPages.addressPage().click_Kaydet_Devamet_button();
         allPages.paymentPage().verify_odeme_ekrani();
         allPages.paymentPage().click_To_Siparisi_Tamamla_Button();
-        allPages.paymentPage().verify_odeme_ekrani();
+        allPages.paymentPage().verify_Navigate_To_Odeme_Page();
+        allPages.paymentPage().click_To_GARANTIPAY_Button();
+        allPages.paymentPage().navigate_To_GARANTIPAY_Odeme_Ekrani();
+        allPages.paymentPage().verify_To_GARANTIPAY_Odeme_Ekrani();
 
 
     }

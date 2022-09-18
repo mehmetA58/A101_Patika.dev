@@ -28,8 +28,7 @@ public class ProductPage extends BaseStepMethod {
         LOGGER.info("User can see product colour");
         getTest().info("User verify product colour in First Product Dizalti Corap Page");
 
-        System.out.println(getTextElement(TXT_PRODUCTPAGE_PRODUCTCOLOUR));
-
+        waitFor(2);
         SoftAssert sf=new SoftAssert();
         sf.assertTrue(getTextElement(TXT_PRODUCTPAGE_PRODUCTCOLOUR).contains("SİYAH"));
         sf.assertAll("secilen ilk diz altı corap siyah");

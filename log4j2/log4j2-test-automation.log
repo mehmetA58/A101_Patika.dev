@@ -1,759 +1,176 @@
-[INFO ] 2022-09-17 01:22:05.759 [main] Utils - [TestNG] Running:
-  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+[INFO ] 2022-09-18 14:49:32.391 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 14:49:35.360 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 14:49:35.485 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 14:49:45.675 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 14:49:49.423 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 14:49:55.500 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 14:49:56.762 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 14:49:58.723 [main] ProductPage - User click first product in Dizalti Corap
+[ERROR] 2022-09-18 14:50:09.137 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 14:50:09.139 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 14:50:09.414 [main] Listener - Test Skipped: case1
+[INFO ] 2022-09-18 14:50:09.416 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 14:50:09.416 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 14:50:11.958 [main] MainPage - User allowed cookies
+[ERROR] 2022-09-18 14:50:37.021 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 14:50:37.022 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 14:50:37.029 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 14:50:37.030 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 14:50:37.767 [main] Listener - I am in onFinish method Suit_1
+[INFO ] 2022-09-18 14:51:14.273 [main] Utils - [TestNG] Running:
+  C:\Users\PC\IdeaProjects\A101\src\test\java\Xsuites\Tests.xml
 
-[INFO ] 2022-09-17 01:22:05.806 [main] Listener - I am in onStart method A101
-[INFO ] 2022-09-17 01:22:08.806 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 01:22:08.853 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 01:22:15.015 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 01:22:16.399 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 01:22:21.032 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 01:22:21.559 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 01:22:24.267 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 01:22:26.357 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 01:22:26.437 [main] ProductPage - User can click add to cart button
-[INFO ] 2022-09-17 01:22:26.587 [main] ProductPage - User can click view cart button
-[INFO ] 2022-09-17 01:22:28.137 [main] BasketPage - User can click Sepeti Onayla Buttonu
-[INFO ] 2022-09-17 01:22:31.645 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
-[INFO ] 2022-09-17 01:22:34.774 [main] OrdersCheckoutPage - User can see email page
-[INFO ] 2022-09-17 01:22:34.803 [main] OrdersCheckoutPage - User can send email
-[INFO ] 2022-09-17 01:22:35.039 [main] AddressPage - User click yeni adres olustur butonuna
-[INFO ] 2022-09-17 01:22:45.865 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
-[INFO ] 2022-09-17 01:22:51.989 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 01:22:51.991 [main] Listener - java.lang.AssertionError: expected [true] but found [false]
-[INFO ] 2022-09-17 01:22:52.220 [main] Listener - I am in onFinish method A101
-[ERROR] 2022-09-17 01:22:52.641 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
-Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:?]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 40 more
-[INFO ] 2022-09-17 01:30:14.348 [main] Utils - [TestNG] Running:
-  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-[INFO ] 2022-09-17 01:30:14.364 [main] Listener - I am in onStart method A101
-[INFO ] 2022-09-17 01:30:14.770 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 01:30:14.801 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 01:30:16.570 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 01:30:16.823 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 01:30:21.216 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 01:30:22.436 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 01:30:23.208 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 01:30:26.298 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 01:30:26.377 [main] ProductPage - User can click add to cart button
-[INFO ] 2022-09-17 01:30:26.544 [main] ProductPage - User can click view cart button
-[INFO ] 2022-09-17 01:30:29.480 [main] BasketPage - User can click Sepeti Onayla Buttonu
-[INFO ] 2022-09-17 01:30:30.410 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
-[INFO ] 2022-09-17 01:30:31.250 [main] OrdersCheckoutPage - User can see email page
-[INFO ] 2022-09-17 01:30:31.298 [main] OrdersCheckoutPage - User can send email
-[INFO ] 2022-09-17 01:30:31.538 [main] AddressPage - User click yeni adres olustur butonuna
-[INFO ] 2022-09-17 01:30:33.817 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
-[INFO ] 2022-09-17 01:30:34.837 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 01:30:34.838 [main] Listener - java.lang.IllegalMonitorStateException
-[INFO ] 2022-09-17 01:30:35.062 [main] Listener - I am in onFinish method A101
-[ERROR] 2022-09-17 01:30:35.401 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
-Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:?]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 40 more
-[INFO ] 2022-09-17 01:33:13.102 [main] Utils - [TestNG] Running:
-  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-[INFO ] 2022-09-17 01:33:13.118 [main] Listener - I am in onStart method A101
-[INFO ] 2022-09-17 01:33:13.524 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 01:33:13.571 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 01:33:15.358 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 01:33:15.608 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 01:33:19.439 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 01:33:19.606 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 01:33:21.645 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 01:33:23.269 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 01:33:23.356 [main] ProductPage - User can click add to cart button
-[INFO ] 2022-09-17 01:33:23.492 [main] ProductPage - User can click view cart button
-[INFO ] 2022-09-17 01:33:25.850 [main] BasketPage - User can click Sepeti Onayla Buttonu
-[INFO ] 2022-09-17 01:33:26.793 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
-[INFO ] 2022-09-17 01:33:28.160 [main] OrdersCheckoutPage - User can see email page
-[INFO ] 2022-09-17 01:33:28.203 [main] OrdersCheckoutPage - User can send email
-[INFO ] 2022-09-17 01:33:28.421 [main] AddressPage - User click yeni adres olustur butonuna
-[INFO ] 2022-09-17 01:33:30.376 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
-[INFO ] 2022-09-17 01:33:31.351 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 01:33:31.352 [main] Listener - java.lang.IllegalMonitorStateException
-[INFO ] 2022-09-17 01:33:31.550 [main] Listener - I am in onFinish method A101
-[ERROR] 2022-09-17 01:33:31.889 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
-Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:?]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 40 more
-[INFO ] 2022-09-17 01:34:01.890 [main] Utils - [TestNG] Running:
-  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-[INFO ] 2022-09-17 01:34:01.906 [main] Listener - I am in onStart method A101
-[INFO ] 2022-09-17 01:34:02.296 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 01:34:02.327 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 01:34:04.127 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 01:34:04.505 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 01:34:09.222 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 01:34:09.590 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 01:34:10.247 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 01:34:13.337 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 01:34:13.425 [main] ProductPage - User can click add to cart button
-[INFO ] 2022-09-17 01:34:13.572 [main] ProductPage - User can click view cart button
-[INFO ] 2022-09-17 01:34:15.603 [main] BasketPage - User can click Sepeti Onayla Buttonu
-[INFO ] 2022-09-17 01:34:18.297 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
-[INFO ] 2022-09-17 01:34:19.003 [main] OrdersCheckoutPage - User can see email page
-[INFO ] 2022-09-17 01:34:19.026 [main] OrdersCheckoutPage - User can send email
-[INFO ] 2022-09-17 01:34:19.233 [main] AddressPage - User click yeni adres olustur butonuna
-[INFO ] 2022-09-17 01:34:21.164 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
-[ERROR] 2022-09-17 01:34:35.336 [main] BaseStepMethod - Web element is not visible!
-[ERROR] 2022-09-17 01:34:45.549 [main] BaseStepMethod - Web element is not visible!
-[ERROR] 2022-09-17 01:34:45.549 [main] BaseStepMethod - Web element is not clickable!
-[INFO ] 2022-09-17 01:34:45.549 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 01:34:45.549 [main] Listener - java.lang.NullPointerException
-[INFO ] 2022-09-17 01:34:45.565 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 01:34:45.565 [main] Listener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+[INFO ] 2022-09-18 14:51:14.305 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 14:51:14.726 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 14:51:14.758 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 14:51:16.775 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 14:51:17.060 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 14:51:21.496 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 14:51:21.710 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 14:51:23.577 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 14:51:25.572 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 14:51:27.726 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 14:51:27.870 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 14:51:29.212 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 14:51:32.372 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 14:51:33.053 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 14:51:33.079 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 14:51:33.404 [main] AddressPage - User click yeni adres olustur butonuna
+[ERROR] 2022-09-18 14:52:18.184 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 14:52:18.184 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 14:52:20.729 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 14:52:20.729 [main] Listener - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-2BK02L1', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf4bf58859d0ec554cf7e5912f23f28f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62035}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62035/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf4bf58859d0ec554cf7e5912f23f28f
+[INFO ] 2022-09-18 14:52:31.123 [main] Listener - I am in onFinish method Suit_1
+[INFO ] 2022-09-18 14:52:50.045 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 14:52:50.482 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 14:52:50.513 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 14:52:52.518 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 14:52:52.773 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 14:53:01.350 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 14:53:01.568 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 14:53:06.618 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 14:53:09.046 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 14:53:11.130 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 14:53:11.263 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 14:53:12.877 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 14:53:14.397 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 14:53:15.663 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 14:53:15.684 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 14:53:15.906 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 14:53:20.248 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 14:53:48.970 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 14:53:49.407 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 14:53:49.438 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 14:53:51.222 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 14:53:51.464 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 14:54:47.258 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 14:55:10.661 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 14:55:11.099 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 14:55:11.130 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 14:55:13.050 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 14:55:13.398 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 14:55:37.334 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 14:55:37.528 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 14:55:42.904 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 14:55:47.548 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 14:55:49.784 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 14:55:49.961 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 14:55:51.229 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 14:56:20.835 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 14:56:21.273 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 14:56:21.304 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 14:56:23.176 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 14:56:23.504 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 14:56:47.581 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 14:56:47.764 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 14:56:50.843 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 14:56:53.261 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 14:56:55.391 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 14:56:55.530 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 14:56:56.237 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 14:57:10.552 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 14:57:11.787 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 14:57:11.809 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 14:57:12.037 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 14:57:50.873 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[ERROR] 2022-09-18 14:58:07.395 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 14:58:07.403 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 14:58:07.445 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 14:58:07.449 [main] Listener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=105.0.5195.102)
+  (Session info: chrome=105.0.5195.127)
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-2BK02L1', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'DESKTOP-2BK02L1', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f04b40974fbb445022200acf2068c9e6, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55319}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55319/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f04b40974fbb445022200acf2068c9e6
-[INFO ] 2022-09-17 01:34:45.565 [main] Listener - I am in onFinish method A101
-[ERROR] 2022-09-17 01:34:45.880 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
-Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:?]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 40 more
-[INFO ] 2022-09-17 01:40:51.283 [main] Utils - [TestNG] Running:
-  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-[INFO ] 2022-09-17 01:40:51.299 [main] Listener - I am in onStart method A101
-[INFO ] 2022-09-17 01:40:51.830 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 01:40:51.861 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 01:40:54.338 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 01:40:54.563 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 01:40:58.489 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 01:41:00.956 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 01:41:03.618 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 01:41:05.449 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 01:41:05.841 [main] ProductPage - User can click add to cart button
-[INFO ] 2022-09-17 01:41:06.105 [main] ProductPage - User can click view cart button
-[INFO ] 2022-09-17 01:41:07.668 [main] BasketPage - User can click Sepeti Onayla Buttonu
-[INFO ] 2022-09-17 01:41:10.172 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
-[INFO ] 2022-09-17 01:41:11.426 [main] OrdersCheckoutPage - User can see email page
-[INFO ] 2022-09-17 01:41:11.450 [main] OrdersCheckoutPage - User can send email
-[INFO ] 2022-09-17 01:41:11.678 [main] AddressPage - User click yeni adres olustur butonuna
-[INFO ] 2022-09-17 01:41:13.876 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
-[ERROR] 2022-09-17 01:41:29.929 [main] BaseStepMethod - Web element is not visible!
-[ERROR] 2022-09-17 01:41:40.072 [main] BaseStepMethod - Web element is not visible!
-[ERROR] 2022-09-17 01:41:40.072 [main] BaseStepMethod - Web element is not clickable!
-[INFO ] 2022-09-17 01:41:40.072 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 01:41:40.072 [main] Listener - java.lang.NullPointerException
-[INFO ] 2022-09-17 01:41:40.087 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 01:41:40.087 [main] Listener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=105.0.5195.102)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-2BK02L1', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fd23a431c7417b67482a1264db17ca98, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55636}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55636/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fd23a431c7417b67482a1264db17ca98
-[INFO ] 2022-09-17 01:41:40.087 [main] Listener - I am in onFinish method A101
-[ERROR] 2022-09-17 01:41:40.522 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
-Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:?]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 40 more
-[INFO ] 2022-09-17 01:43:43.820 [main] Utils - [TestNG] Running:
-  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-[INFO ] 2022-09-17 01:43:43.851 [main] Listener - I am in onStart method A101
-[INFO ] 2022-09-17 01:43:44.258 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 01:43:44.273 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 01:43:46.059 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 01:43:46.469 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 01:43:51.503 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 01:43:51.734 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 01:43:52.682 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 01:43:55.431 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 01:43:55.507 [main] ProductPage - User can click add to cart button
-[INFO ] 2022-09-17 01:43:55.704 [main] ProductPage - User can click view cart button
-[INFO ] 2022-09-17 01:43:57.040 [main] BasketPage - User can click Sepeti Onayla Buttonu
-[INFO ] 2022-09-17 01:43:59.669 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
-[INFO ] 2022-09-17 01:44:00.519 [main] OrdersCheckoutPage - User can see email page
-[INFO ] 2022-09-17 01:44:00.568 [main] OrdersCheckoutPage - User can send email
-[INFO ] 2022-09-17 01:44:00.800 [main] AddressPage - User click yeni adres olustur butonuna
-[INFO ] 2022-09-17 01:44:02.978 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
-[INFO ] 2022-09-17 01:44:08.701 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 01:44:08.703 [main] Listener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-2BK02L1', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c80e418a9a234e4d84032c1680153834, clickElement {id=7676ddb6-ae7e-41b4-8e51-6ecb9bbf491e}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55816/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (c80e418a9a234e4d84032c1680153834)] -> xpath: (//div[@class='cargo-list']//ul//li//label)[1]]
-Session ID: c80e418a9a234e4d84032c1680153834
-[INFO ] 2022-09-17 01:44:08.916 [main] Listener - I am in onFinish method A101
-[ERROR] 2022-09-17 01:44:09.234 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
-Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:?]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 40 more
-[INFO ] 2022-09-17 01:45:03.886 [main] Utils - [TestNG] Running:
-  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-[INFO ] 2022-09-17 01:45:03.902 [main] Listener - I am in onStart method A101
-[INFO ] 2022-09-17 01:45:04.339 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 01:45:04.355 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 01:45:06.238 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 01:45:06.652 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 01:45:10.927 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 01:45:11.211 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 01:45:13.070 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 01:45:15.058 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 01:45:15.128 [main] ProductPage - User can click add to cart button
-[INFO ] 2022-09-17 01:45:15.279 [main] ProductPage - User can click view cart button
-[INFO ] 2022-09-17 01:45:16.661 [main] BasketPage - User can click Sepeti Onayla Buttonu
-[INFO ] 2022-09-17 01:45:19.628 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
-[INFO ] 2022-09-17 01:45:20.341 [main] OrdersCheckoutPage - User can see email page
-[INFO ] 2022-09-17 01:45:20.367 [main] OrdersCheckoutPage - User can send email
-[INFO ] 2022-09-17 01:45:20.583 [main] AddressPage - User click yeni adres olustur butonuna
-[INFO ] 2022-09-17 01:45:22.382 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
-[INFO ] 2022-09-17 01:45:40.733 [main] Utils - [TestNG] Running:
-  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
-
-[INFO ] 2022-09-17 01:45:40.748 [main] Listener - I am in onStart method A101
-[INFO ] 2022-09-17 01:45:41.155 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 01:45:41.186 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 01:45:43.158 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 01:45:43.656 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 01:45:49.678 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 01:45:49.831 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 01:45:51.832 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 01:45:53.824 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 01:45:53.924 [main] ProductPage - User can click add to cart button
-[INFO ] 2022-09-17 01:45:54.111 [main] ProductPage - User can click view cart button
-[INFO ] 2022-09-17 01:45:56.887 [main] BasketPage - User can click Sepeti Onayla Buttonu
-[INFO ] 2022-09-17 01:45:58.532 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
-[INFO ] 2022-09-17 01:45:59.213 [main] OrdersCheckoutPage - User can see email page
-[INFO ] 2022-09-17 01:45:59.245 [main] OrdersCheckoutPage - User can send email
-[INFO ] 2022-09-17 01:45:59.476 [main] AddressPage - User click yeni adres olustur butonuna
-[INFO ] 2022-09-17 01:46:01.302 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
-[INFO ] 2022-09-17 01:46:07.989 [main] Listener - case1 test is succeed.
-[INFO ] 2022-09-17 01:46:07.993 [main] Listener - I am in onFinish method A101
-[ERROR] 2022-09-17 01:46:08.316 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
-Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:?]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 40 more
-[INFO ] 2022-09-17 01:53:34.055 [main] Listener - I am in onStart method Suit_1
-[INFO ] 2022-09-17 01:53:35.071 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 01:53:35.133 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 01:53:40.377 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 01:53:41.744 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 01:53:47.393 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 01:53:47.697 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 01:53:54.901 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 01:53:57.091 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 01:53:57.449 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 01:53:57.450 [main] Listener - java.lang.AssertionError: secilen ilk diz altı corap siyah
-	expected [true] but found [false]
-[INFO ] 2022-09-17 01:53:57.732 [main] Listener - I am in onFinish method Suit_1
-[ERROR] 2022-09-17 01:53:58.163 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/except�on.ftl"):
-Template not found for name "spark/partials/except�on.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/except�on.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 45 more
-[INFO ] 2022-09-17 01:55:22.219 [main] Listener - I am in onStart method Suit_1
-[INFO ] 2022-09-17 01:55:22.672 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 01:55:22.703 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 01:55:25.010 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 01:55:25.246 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 01:55:29.165 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 01:55:29.765 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 01:55:31.857 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 01:55:33.924 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 01:55:34.055 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 01:55:34.056 [main] Listener - java.lang.AssertionError: secilen ilk diz altı corap siyah
-	expected [true] but found [false]
-[INFO ] 2022-09-17 01:55:34.361 [main] Listener - I am in onFinish method Suit_1
-[ERROR] 2022-09-17 01:55:34.712 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/except�on.ftl"):
-Template not found for name "spark/partials/except�on.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) ~[surefire-testng-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/except�on.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 45 more
-[ERROR] 2022-09-17 01:55:34.797 [main] Main - C:\Users\PC\IdeaProjects\A101\target\surefire-reports\jquery-3.6.0.min.js
+Command: [dab9b88221f275816391b0490ba78141, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62665/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dab9b88221f275816391b0490ba78141
+[INFO ] 2022-09-18 14:58:07.499 [main] Listener - I am in onFinish method Suit_1
+[INFO ] 2022-09-18 14:58:21.317 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 14:58:21.790 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 14:58:21.821 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 14:58:23.569 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 14:58:23.922 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 14:58:36.805 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 14:58:36.990 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 14:58:40.507 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 14:58:42.813 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 14:58:44.939 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 14:58:45.078 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 14:58:46.529 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 14:58:49.356 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 14:58:50.042 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 14:58:50.067 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 14:58:50.308 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 14:58:52.240 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 14:58:59.001 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 14:58:59.031 [main] Listener - I am in onFinish method Suit_1
+[INFO ] 2022-09-18 15:01:24.337 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 15:01:24.775 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 15:01:24.806 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 15:01:26.502 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 15:01:26.834 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 15:01:32.152 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 15:01:32.396 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 15:01:34.234 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 15:01:36.265 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 15:01:38.371 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 15:01:38.531 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 15:01:40.037 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 15:01:42.618 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 15:01:43.348 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 15:01:43.373 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 15:01:43.585 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 15:01:46.007 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 15:01:52.641 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 15:01:52.666 [main] Listener - I am in onFinish method Suit_1
+[INFO ] 2022-09-18 15:03:58.547 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 15:03:59.001 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 15:03:59.032 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 15:04:00.887 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 15:04:01.187 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 15:04:06.734 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 15:04:06.905 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 15:04:07.501 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 15:04:10.570 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 15:04:12.675 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 15:04:12.820 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 15:04:14.243 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 15:04:16.962 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 15:04:17.657 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 15:04:17.683 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 15:04:17.891 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 15:04:19.839 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 15:04:26.468 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 15:04:26.573 [main] Listener - I am in onFinish method Suit_1
+[ERROR] 2022-09-18 15:04:26.671 [main] Main - C:\Users\PC\IdeaProjects\A101\target\surefire-reports\jquery-3.6.0.min.js
 java.nio.file.FileAlreadyExistsException: C:\Users\PC\IdeaProjects\A101\target\surefire-reports\jquery-3.6.0.min.js
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -772,262 +189,635 @@ java.nio.file.FileAlreadyExistsException: C:\Users\PC\IdeaProjects\A101\target\s
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) ~[surefire-booter-3.0.0-M5.jar:3.0.0-M5]
-[INFO ] 2022-09-17 12:24:16.429 [main] Utils - [TestNG] Running:
+[INFO ] 2022-09-18 15:06:57.141 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 15:06:57.563 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 15:06:57.594 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 15:06:59.367 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 15:06:59.748 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 15:07:04.831 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 15:07:05.303 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 15:07:07.349 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 15:07:09.335 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 15:07:11.475 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 15:07:11.642 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 15:07:14.314 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 15:07:16.275 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 15:07:16.968 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 15:07:16.991 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 15:07:17.216 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 15:07:19.098 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 15:07:25.640 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 15:07:25.817 [main] Listener - I am in onFinish method Suit_1
+[INFO ] 2022-09-18 15:15:29.476 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 15:15:29.913 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 15:15:29.945 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 15:15:31.730 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 15:15:32.052 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 15:15:36.361 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 15:15:36.577 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 15:15:38.783 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 15:15:40.867 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 15:15:43.009 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 15:15:44.423 [main] Listener - Test Skipped: case1
+[INFO ] 2022-09-18 15:15:44.424 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 15:15:44.425 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 15:15:46.436 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 15:16:09.881 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 15:16:10.349 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 15:16:10.381 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 15:16:12.311 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 15:16:12.726 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 15:16:17.848 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 15:16:18.159 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 15:16:19.098 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 15:16:22.057 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 15:16:24.167 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 15:16:24.344 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 15:16:25.601 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 15:16:28.249 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 15:16:28.941 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 15:16:28.970 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 15:16:29.181 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 15:16:31.180 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 15:16:36.887 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 15:16:36.981 [main] PaymentPage - User  �deme ekran�n� g�rd���n� do�rular
+[INFO ] 2022-09-18 15:16:37.564 [main] PaymentPage - User sipari�i tamamla butonuna tiklar
+[INFO ] 2022-09-18 15:16:37.696 [main] PaymentPage - User  �deme ekran�n� g�rd���n� do�rular
+[INFO ] 2022-09-18 15:16:37.796 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 15:16:37.822 [main] Listener - I am in onFinish method Suit_1
+[INFO ] 2022-09-18 15:36:19.723 [main] Utils - [TestNG] Running:
   C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
 
-[INFO ] 2022-09-17 12:24:16.460 [main] Listener - I am in onStart method A101
-[INFO ] 2022-09-17 12:24:19.022 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 12:24:19.100 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 12:24:24.453 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 12:24:26.308 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 12:24:30.484 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 12:24:31.011 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 12:24:33.290 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 12:24:33.545 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 12:24:35.689 [main] ProductPage - User can click add to cart button
-[INFO ] 2022-09-17 12:24:35.829 [main] ProductPage - User can click view cart button
-[INFO ] 2022-09-17 12:24:37.129 [main] BasketPage - User can click Sepeti Onayla Buttonu
-[INFO ] 2022-09-17 12:24:39.774 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
-[INFO ] 2022-09-17 12:24:40.523 [main] OrdersCheckoutPage - User can see email page
-[INFO ] 2022-09-17 12:24:40.554 [main] OrdersCheckoutPage - User can send email
-[INFO ] 2022-09-17 12:24:40.778 [main] AddressPage - User click yeni adres olustur butonuna
-[INFO ] 2022-09-17 12:24:42.724 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
-[INFO ] 2022-09-17 12:24:49.633 [main] Listener - case1 test is succeed.
-[INFO ] 2022-09-17 12:24:49.642 [main] Listener - I am in onFinish method A101
-[ERROR] 2022-09-17 12:24:50.068 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
-Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+[INFO ] 2022-09-18 15:36:19.739 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 15:36:20.145 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 15:36:20.176 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 15:36:22.077 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 15:36:22.455 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 15:36:29.098 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 15:36:29.262 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 15:36:31.213 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 15:36:33.194 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 15:36:35.350 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 15:36:35.526 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 15:36:38.078 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 15:36:39.668 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 15:36:40.385 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 15:36:40.409 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 15:36:40.641 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 15:36:42.630 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 15:36:48.382 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 15:36:48.489 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 15:36:49.065 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 15:36:49.189 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 15:36:49.225 [main] PaymentPage - User odeme yapmak icin BKM EXPRESS i secer
+[INFO ] 2022-09-18 15:37:11.486 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[ERROR] 2022-09-18 15:37:21.652 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 15:37:21.652 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 15:37:21.683 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 15:37:21.683 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 15:37:21.931 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 15:39:30.464 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
 
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:?]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 40 more
-[INFO ] 2022-09-17 13:06:21.965 [main] Utils - [TestNG] Running:
-  C:\Users\PC\IdeaProjects\A101\src\test\java\Xsuites\CrossBrowserTests.xml
+[INFO ] 2022-09-18 15:39:30.480 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 15:39:30.886 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 15:39:30.918 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 15:39:32.705 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 15:39:33.112 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 15:39:37.834 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 15:39:38.089 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 15:39:40.461 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 15:39:42.550 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 15:39:44.668 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 15:39:44.805 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 15:39:46.663 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 15:39:49.465 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 15:39:50.309 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 15:39:50.356 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 15:39:50.595 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 15:39:52.606 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 15:39:58.554 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 15:39:58.659 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 15:39:59.233 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 15:39:59.405 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 15:39:59.509 [main] PaymentPage - User odeme yapmak icin BKM EXPRESS i secer
+[INFO ] 2022-09-18 15:39:59.627 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[ERROR] 2022-09-18 15:40:09.763 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 15:40:09.763 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 15:40:09.763 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 15:40:09.763 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 15:40:10.005 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 15:47:03.902 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
 
-[INFO ] 2022-09-17 13:06:22.004 [main] Listener - I am in onStart method Suit_1
-[INFO ] 2022-09-17 13:06:23.709 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 13:06:23.784 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 13:06:32.373 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 13:06:33.692 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 13:06:39.405 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 13:06:39.843 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 13:06:42.185 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 13:06:44.529 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 13:06:44.750 [main] ProductPage - User can click add to cart button
-[INFO ] 2022-09-17 13:06:44.942 [main] ProductPage - User can click view cart button
-[INFO ] 2022-09-17 13:06:46.471 [main] BasketPage - User can click Sepeti Onayla Buttonu
-[INFO ] 2022-09-17 13:06:49.925 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
-[INFO ] 2022-09-17 13:06:51.311 [main] OrdersCheckoutPage - User can see email page
-[INFO ] 2022-09-17 13:06:51.337 [main] OrdersCheckoutPage - User can send email
-[INFO ] 2022-09-17 13:06:51.575 [main] AddressPage - User click yeni adres olustur butonuna
-[INFO ] 2022-09-17 13:07:09.316 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
-[INFO ] 2022-09-17 13:07:16.409 [main] Listener - case1 test is succeed.
-[INFO ] 2022-09-17 13:07:16.411 [main] Listener - I am in onFinish method Suit_1
-[ERROR] 2022-09-17 13:07:16.938 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
-Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+[INFO ] 2022-09-18 15:47:03.925 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 15:47:04.358 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 15:47:04.387 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 15:47:06.111 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 15:47:06.471 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 15:47:11.167 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 15:47:11.602 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 15:47:12.348 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 15:47:15.384 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 15:47:17.498 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 15:47:17.698 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 15:47:20.385 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 15:47:21.335 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 15:47:22.745 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 15:47:22.769 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 15:47:22.997 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 15:47:25.148 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 15:47:30.833 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 15:47:30.928 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 15:47:31.507 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 15:47:31.638 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 15:47:31.673 [main] PaymentPage - User odeme yapmak icin BKM EXPRESS i secer
+[INFO ] 2022-09-18 15:47:31.841 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[INFO ] 2022-09-18 15:47:31.953 [main] PaymentPage - User BKM Express odeme yap buttona tiklar
+[INFO ] 2022-09-18 15:52:25.387 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
 
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:?]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 40 more
-[INFO ] 2022-09-17 13:07:16.979 [main] Listener - I am in onStart method Suit_2
-[INFO ] 2022-09-17 13:07:16.988 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 13:07:16.989 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 13:07:19.400 [main] MainPage - User allowed cookies
-[ERROR] 2022-09-17 13:07:44.433 [main] BaseStepMethod - Web element is not visible!
-[ERROR] 2022-09-17 13:07:44.433 [main] BaseStepMethod - Web element is not clickable!
-[INFO ] 2022-09-17 13:07:44.952 [main] Listener - Test Skipped: case1
-[INFO ] 2022-09-17 13:07:44.953 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 13:07:44.954 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 13:07:47.362 [main] MainPage - User allowed cookies
-[ERROR] 2022-09-17 13:07:57.479 [main] BaseStepMethod - Web element is not visible!
-[ERROR] 2022-09-17 13:07:57.479 [main] BaseStepMethod - Web element is not clickable!
-[INFO ] 2022-09-17 13:07:57.536 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 13:07:57.538 [main] Listener - java.lang.NullPointerException
-[INFO ] 2022-09-17 13:07:57.553 [main] Listener - Test Failed: case1
-[ERROR] 2022-09-17 13:07:57.553 [main] Listener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+[INFO ] 2022-09-18 15:52:25.410 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 15:52:27.919 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 15:52:27.954 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 15:52:29.847 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 15:52:30.211 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 15:52:35.426 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 15:52:35.865 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 15:52:36.601 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 15:52:39.606 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 15:52:41.702 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 15:52:41.850 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 15:52:43.405 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 15:52:45.343 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 15:52:46.479 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 15:52:46.503 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 15:52:46.726 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 15:52:49.001 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 15:52:54.657 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 15:52:54.754 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 15:52:55.370 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 15:52:55.495 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 15:52:55.607 [main] PaymentPage - User odeme yapmak icin BKM EXPRESS i secer
+[INFO ] 2022-09-18 15:52:55.708 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[ERROR] 2022-09-18 15:53:05.772 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 15:53:15.807 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 15:53:15.808 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 15:53:15.814 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 15:53:15.815 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 15:53:16.025 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 15:56:32.451 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+[INFO ] 2022-09-18 15:56:32.469 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 15:56:32.869 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 15:56:32.898 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 15:56:34.678 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 15:56:34.931 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 15:56:39.541 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 15:56:39.723 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 15:56:41.758 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 15:56:43.884 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 15:56:45.997 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 15:56:46.178 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 15:56:47.700 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 15:56:49.748 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 15:56:51.123 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 15:56:51.148 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 15:56:51.398 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 15:56:53.306 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 15:56:59.066 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 15:56:59.163 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 15:56:59.739 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 15:56:59.849 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 15:56:59.883 [main] PaymentPage - User odeme yapmak icin BKM EXPRESS i secer
+[INFO ] 2022-09-18 15:57:00.609 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[ERROR] 2022-09-18 15:57:10.658 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 15:57:20.731 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 15:57:20.732 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 15:57:20.745 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 15:57:20.746 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 15:57:20.948 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 16:03:45.306 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+[INFO ] 2022-09-18 16:03:45.322 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 16:03:45.744 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 16:03:45.775 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 16:03:47.587 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 16:03:47.837 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 16:03:52.520 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 16:03:52.735 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 16:03:54.709 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 16:03:56.898 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 16:03:59.047 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 16:03:59.181 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 16:04:01.858 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 16:04:02.751 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 16:04:04.149 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 16:04:04.179 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 16:04:04.401 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 16:04:06.946 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 16:04:12.664 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 16:04:12.757 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 16:04:13.337 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 16:04:13.461 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 16:04:13.507 [main] PaymentPage - User odeme yapmak icin BKM EXPRESS i secer
+[INFO ] 2022-09-18 16:04:13.658 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[ERROR] 2022-09-18 16:04:23.697 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 16:04:33.776 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 16:04:33.776 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 16:04:33.791 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 16:04:33.791 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 16:04:34.026 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 16:05:54.446 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+[INFO ] 2022-09-18 16:05:54.478 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 16:05:54.915 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 16:05:54.946 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 16:05:56.672 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 16:05:56.959 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 16:06:01.534 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 16:06:03.933 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 16:06:03.933 [main] Listener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll" class="CybotCookiebotDialogBodyButton" tabindex="0" lang="tr">...</button> is not clickable at point (1043, 605). Other element would receive the click: <div class="recommended-item-title">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-2BK02L1', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71ba0e61f3f3f610afb587177bcebda3, clickElement {id=b436fab7-6911-4d3a-a2c8-7e2a6767a0da}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:50498}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50498/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (71ba0e61f3f3f610afb587177bcebda3)] -> xpath: (//button[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll'])]
+Session ID: 71ba0e61f3f3f610afb587177bcebda3
+[INFO ] 2022-09-18 16:06:04.339 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 16:06:13.861 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+[INFO ] 2022-09-18 16:06:13.877 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 16:06:14.268 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 16:06:14.299 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 16:06:16.053 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 16:06:16.306 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 16:06:20.536 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 16:06:20.773 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 16:06:22.632 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 16:06:24.369 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 16:06:26.546 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 16:06:26.720 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 16:06:29.408 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 16:06:30.314 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 16:06:31.571 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 16:06:31.587 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 16:06:31.814 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 16:06:33.770 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 16:06:39.464 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 16:06:39.556 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 16:06:40.193 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 16:06:40.310 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 16:06:40.344 [main] PaymentPage - User odeme yapmak icin BKM EXPRESS i secer
+[INFO ] 2022-09-18 16:06:40.491 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[ERROR] 2022-09-18 16:06:52.608 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 16:06:52.609 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 16:06:52.616 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 16:06:52.617 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 16:06:52.814 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 16:18:18.124 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+[INFO ] 2022-09-18 16:18:18.140 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 16:18:18.546 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 16:18:18.562 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 16:18:20.286 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 16:18:20.685 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 16:18:26.147 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 16:18:26.384 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 16:18:27.140 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 16:18:31.175 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 16:18:33.284 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 16:18:33.416 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 16:18:34.704 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 16:18:37.500 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 16:18:38.183 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 16:18:38.207 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 16:18:38.434 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 16:18:40.282 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 16:18:45.967 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 16:18:46.060 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 16:18:46.630 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 16:18:46.762 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 16:18:46.802 [main] PaymentPage - User odeme yapmak icin BKM EXPRESS i secer
+[INFO ] 2022-09-18 16:18:46.955 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[INFO ] 2022-09-18 16:18:47.085 [main] PaymentPage - User BKM Express odeme yap buttona tiklar
+[ERROR] 2022-09-18 16:19:12.343 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 16:19:12.344 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 16:19:12.586 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 16:19:12.588 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 16:19:12.926 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 16:21:53.822 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+[INFO ] 2022-09-18 16:21:53.838 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 16:21:54.307 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 16:21:54.338 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 16:21:56.087 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 16:21:56.357 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 16:22:03.607 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 16:22:03.974 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 16:22:05.891 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 16:22:07.882 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 16:22:10.020 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 16:22:10.144 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 16:22:12.627 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 16:22:14.512 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 16:22:15.205 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 16:22:15.228 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 16:22:15.446 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 16:22:18.003 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 16:22:23.692 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 16:22:23.784 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 16:22:24.353 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 16:22:24.478 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 16:22:24.512 [main] PaymentPage - User odeme yapmak icin BKM EXPRESS i secer
+[INFO ] 2022-09-18 16:22:34.648 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[INFO ] 2022-09-18 16:22:34.780 [main] PaymentPage - User BKM Express odeme yap buttona tiklar
+[ERROR] 2022-09-18 16:22:45.082 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 16:22:45.082 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 16:22:45.097 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 16:22:45.097 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 16:22:45.128 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 16:22:45.128 [main] Listener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=105.0.5195.127)
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-2BK02L1', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'DESKTOP-2BK02L1', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [34724733b46305d910a8225448eba781, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:58027}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58027/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 34724733b46305d910a8225448eba781
-[INFO ] 2022-09-17 13:07:57.557 [main] Listener - I am in onFinish method Suit_2
-[INFO ] 2022-09-17 17:04:20.397 [main] Utils - [TestNG] Running:
+Command: [b769a3f72f4462175b598564dce7ad17, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51603/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b769a3f72f4462175b598564dce7ad17
+[INFO ] 2022-09-18 16:22:45.128 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 16:43:51.743 [main] Utils - [TestNG] Running:
   C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
 
-[INFO ] 2022-09-17 17:04:20.428 [main] Listener - I am in onStart method A101
-[INFO ] 2022-09-17 17:04:22.085 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
-[INFO ] 2022-09-17 17:04:22.100 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
-[INFO ] 2022-09-17 17:04:24.174 [main] Listener - Test Started: case1
-[INFO ] 2022-09-17 17:04:24.404 [main] MainPage - User go to https://www.a101.com.tr/
-[INFO ] 2022-09-17 17:04:29.091 [main] MainPage - User allowed cookies
-[INFO ] 2022-09-17 17:04:29.584 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
-[INFO ] 2022-09-17 17:04:31.602 [main] ProductPage - User click first product in Dizalti Corap
-[INFO ] 2022-09-17 17:04:33.593 [main] ProductPage - User can see product colour
-[INFO ] 2022-09-17 17:04:33.688 [main] ProductPage - User can click add to cart button
-[INFO ] 2022-09-17 17:04:33.843 [main] ProductPage - User can click view cart button
-[INFO ] 2022-09-17 17:04:35.591 [main] BasketPage - User can click Sepeti Onayla Buttonu
-[INFO ] 2022-09-17 17:04:37.457 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
-[INFO ] 2022-09-17 17:04:38.272 [main] OrdersCheckoutPage - User can see email page
-[INFO ] 2022-09-17 17:04:38.301 [main] OrdersCheckoutPage - User can send email
-[INFO ] 2022-09-17 17:04:38.538 [main] AddressPage - User click yeni adres olustur butonuna
-[INFO ] 2022-09-17 17:04:40.470 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
-[INFO ] 2022-09-17 17:04:47.327 [main] Listener - case1 test is succeed.
-[INFO ] 2022-09-17 17:04:47.331 [main] Listener - I am in onFinish method A101
-[ERROR] 2022-09-17 17:04:47.834 [main] runtime - Error executing FreeMarker template
-freemarker.core._MiscTemplateException: Template inclusion failed (for parameter value "partials/exceptıon.ftl"):
-Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
+[INFO ] 2022-09-18 16:43:51.761 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 16:43:52.228 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 16:43:52.265 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 16:43:54.303 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 16:43:54.767 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 16:43:59.229 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 16:43:59.886 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 16:44:00.791 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 16:44:04.601 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 16:44:06.748 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 16:44:06.963 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 16:44:08.545 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 16:44:12.088 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 16:44:12.839 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 16:44:12.869 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 16:44:13.149 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 16:44:15.657 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 16:44:21.823 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 16:44:21.965 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 16:44:22.580 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 16:44:22.763 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 16:44:22.910 [main] PaymentPage - User odeme yapmak icin BKM EXPRESS i secer
+[ERROR] 2022-09-18 16:44:33.112 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 16:44:33.113 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 16:44:33.123 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 16:44:33.125 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 16:44:33.350 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 17:03:06.882 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
 
-----
-FTL stack trace ("~" means nesting-related):
-	- Failed at: #include "partials/${view.toString()}...  [in template "spark/spark.spa.ftl" at line 27, column 36]
-----
-	at freemarker.core.Include.accept(Include.java:164) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:370) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:321) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visitIteratorBlock(Environment.java:644) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:334) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.visit(Environment.java:340) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.process(Environment.java:313) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.template.Template.process(Template.java:383) ~[freemarker-2.3.30.jar:2.3.30]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.processTemplate(FreemarkerTemplate.java:52) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.getSource(FreemarkerTemplate.java:39) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.templating.FreemarkerTemplate.writeTemplate(FreemarkerTemplate.java:45) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.AbstractFileReporter.processTemplate(AbstractFileReporter.java:74) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.flush(ExtentSparkReporter.java:149) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter.access$100(ExtentSparkReporter.java:27) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:121) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.reporter.ExtentSparkReporter$1.onNext(ExtentSparkReporter.java:113) ~[extentreports-5.0.9.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310) ~[rxjava-3.0.4.jar:?]
-	at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226) ~[rxjava-3.0.4.jar:?]
-	at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85) ~[extentreports-5.0.9.jar:?]
-	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279) ~[extentreports-5.0.9.jar:?]
-	at Listener.Listener.onFinish(Listener.java:38) ~[classes/:?]
-	at org.testng.TestRunner.fireEvent(TestRunner.java:942) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.afterRun(TestRunner.java:901) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestRunner.run(TestRunner.java:604) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.runSuites(TestNG.java:1099) ~[testng-7.6.1.jar:7.6.1]
-	at org.testng.TestNG.run(TestNG.java:1067) ~[testng-7.6.1.jar:7.6.1]
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) ~[testng-rt.jar:?]
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) ~[testng-rt.jar:?]
-Caused by: freemarker.template.TemplateNotFoundException: Template not found for name "spark/partials/exceptıon.ftl".
-The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.aventstack.extentreports.ExtentReports, basePackagePath="templates/" /* relatively to resourceLoaderClass pkg */).
-	at freemarker.template.Configuration.getTemplate(Configuration.java:2869) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Environment.getTemplateForInclusion(Environment.java:2883) ~[freemarker-2.3.30.jar:2.3.30]
-	at freemarker.core.Include.accept(Include.java:162) ~[freemarker-2.3.30.jar:2.3.30]
-	... 40 more
+[INFO ] 2022-09-18 17:03:06.963 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 17:03:11.022 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 17:03:11.052 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 17:03:14.016 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 17:03:14.563 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 17:03:19.538 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 17:03:19.893 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 17:03:20.475 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 17:03:23.535 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 17:03:25.626 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 17:03:25.750 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 17:03:28.197 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 17:03:29.252 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 17:03:30.639 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 17:03:30.665 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 17:03:30.886 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 17:03:34.794 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 17:03:40.511 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 17:03:40.633 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 17:03:41.204 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 17:03:41.317 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 17:03:41.425 [main] PaymentPage - User odeme yapmak icin BKM EXPRESS i secer
+[ERROR] 2022-09-18 17:03:51.446 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 17:03:51.447 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 17:03:51.454 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 17:03:51.455 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 17:03:51.707 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 17:10:19.993 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+[INFO ] 2022-09-18 17:10:20.010 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 17:10:20.436 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 17:10:20.492 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 17:10:22.283 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 17:10:22.515 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 17:10:27.115 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 17:10:27.281 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 17:10:28.088 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 17:10:31.151 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 17:10:33.271 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 17:10:33.409 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 17:10:34.690 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 17:10:36.712 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 17:10:38.027 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 17:10:38.051 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 17:10:38.273 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 17:10:40.246 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 17:10:45.920 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 17:10:46.017 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 17:10:46.598 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 17:10:46.732 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 17:10:46.804 [main] PaymentPage - User odeme yapmak icin GARANTİ PAY i secer
+[INFO ] 2022-09-18 17:10:46.921 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[INFO ] 2022-09-18 17:10:47.056 [main] PaymentPage - User BKM Express odeme yap buttona tiklar
+[ERROR] 2022-09-18 17:11:12.091 [main] BaseStepMethod - Web element is not visible!
+[ERROR] 2022-09-18 17:11:12.091 [main] BaseStepMethod - Web element is not clickable!
+[INFO ] 2022-09-18 17:11:12.099 [main] Listener - Test Failed: case1
+[ERROR] 2022-09-18 17:11:12.100 [main] Listener - java.lang.NullPointerException
+[INFO ] 2022-09-18 17:11:12.354 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 17:14:31.894 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+[INFO ] 2022-09-18 17:14:31.912 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 17:14:32.325 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 17:14:32.356 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 17:14:35.042 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 17:14:35.482 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 17:14:40.085 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 17:14:40.283 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 17:14:41.244 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 17:14:44.827 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 17:14:46.942 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 17:14:47.103 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 17:14:49.648 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 17:14:50.579 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 17:14:51.537 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 17:14:51.572 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 17:14:51.983 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 17:14:54.543 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 17:15:00.287 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 17:15:00.384 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 17:15:00.964 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 17:15:01.094 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 17:15:01.187 [main] PaymentPage - User odeme yapmak icin GARANTİ PAY i secer
+[INFO ] 2022-09-18 17:15:01.289 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[INFO ] 2022-09-18 17:15:01.421 [main] PaymentPage - User BKM Express odeme yap buttona tiklar
+[INFO ] 2022-09-18 17:15:01.526 [main] PaymentPage - User BKM Express odeme ekraninin göruldugunu dogrular
+[INFO ] 2022-09-18 17:15:01.540 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 17:15:01.542 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 17:17:11.112 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+[INFO ] 2022-09-18 17:17:11.131 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 17:17:11.538 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 17:17:11.568 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 17:17:13.286 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 17:17:13.556 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 17:17:19.922 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 17:17:20.103 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 17:17:21.978 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 17:17:22.202 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 17:17:26.031 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 17:17:26.207 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 17:17:27.605 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 17:17:29.658 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 17:17:31.061 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 17:17:31.084 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 17:17:31.332 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 17:17:33.132 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 17:17:38.850 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 17:17:38.954 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 17:17:39.563 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 17:17:39.695 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 17:17:39.733 [main] PaymentPage - User odeme yapmak icin GARANTİ PAY i secer
+[INFO ] 2022-09-18 17:17:39.878 [main] PaymentPage - User BKM Express sozlesmeyi kabul et radio buttona tiklar
+[INFO ] 2022-09-18 17:17:40.009 [main] PaymentPage - User BKM Express odeme yap buttona tiklar
+[INFO ] 2022-09-18 17:17:40.117 [main] PaymentPage - User BKM Express odeme ekraninin göruldugunu dogrular
+[INFO ] 2022-09-18 17:17:40.146 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 17:17:40.150 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 17:19:25.311 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+[INFO ] 2022-09-18 17:19:25.329 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 17:19:25.801 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 17:19:25.829 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 17:19:27.561 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 17:19:27.866 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 17:19:34.007 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 17:19:34.202 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 17:19:34.924 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 17:19:37.965 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 17:19:40.128 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 17:19:40.292 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 17:19:42.895 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 17:19:43.709 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 17:19:45.046 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 17:19:45.069 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 17:19:45.293 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 17:19:47.108 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 17:19:52.782 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 17:19:52.875 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 17:19:53.452 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 17:19:53.567 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 17:19:53.601 [main] PaymentPage - User odeme yapmak icin GARANTİ PAY i secer
+[INFO ] 2022-09-18 17:19:53.795 [main] PaymentPage - User GARANTİ PAY sozlesmeyi kabul et radio buttona tiklar
+[INFO ] 2022-09-18 17:19:53.927 [main] PaymentPage - User GARANTİ PAY odeme yap buttona tiklar
+[INFO ] 2022-09-18 17:19:54.062 [main] PaymentPage - User GARANTİ PAY odeme ekraninin göruldugunu dogrular
+[INFO ] 2022-09-18 17:19:54.069 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 17:19:54.072 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 17:23:28.935 [main] Utils - [TestNG] Running:
+  C:\Users\PC\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml
+
+[INFO ] 2022-09-18 17:23:28.954 [main] Listener - I am in onStart method A101
+[INFO ] 2022-09-18 17:23:29.375 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 17:23:29.405 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 17:23:31.278 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 17:23:31.630 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 17:23:36.810 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 17:23:37.059 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 17:23:39.077 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 17:23:41.239 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 17:23:43.331 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 17:23:43.498 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 17:23:45.837 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 17:23:47.800 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 17:23:48.596 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 17:23:48.620 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 17:23:48.845 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 17:23:51.106 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 17:23:56.791 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 17:23:56.882 [main] PaymentPage - User  ödeme ekranını gördüğünü doğrular
+[INFO ] 2022-09-18 17:23:57.457 [main] PaymentPage - User siparişi tamamla butonuna tiklar
+[INFO ] 2022-09-18 17:23:57.583 [main] PaymentPage - User siparişi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 17:23:57.694 [main] PaymentPage - User odeme yapmak icin GARANTİ PAY i secer
+[INFO ] 2022-09-18 17:23:57.880 [main] PaymentPage - User GARANTİ PAY sozlesmeyi kabul et radio buttona tiklar
+[INFO ] 2022-09-18 17:23:58.013 [main] PaymentPage - User GARANTİ PAY odeme yap buttona tiklar
+[INFO ] 2022-09-18 17:23:58.114 [main] PaymentPage - User GARANTİ PAY odeme ekraninin göruldugunu dogrular
+[INFO ] 2022-09-18 17:24:22.038 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 17:24:22.041 [main] Listener - I am in onFinish method A101
+[INFO ] 2022-09-18 17:25:45.796 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 17:25:46.244 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 17:25:46.272 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 17:25:48.086 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 17:25:48.356 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 17:25:52.753 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 17:25:53.481 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 17:25:55.539 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 17:25:57.554 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 17:25:59.665 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 17:25:59.814 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 17:26:01.212 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 17:26:03.625 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 17:26:05.010 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 17:26:05.034 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 17:26:05.262 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 17:26:07.168 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 17:26:12.884 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 17:26:12.985 [main] PaymentPage - User  �deme ekran�n� g�rd���n� do�rular
+[INFO ] 2022-09-18 17:26:13.570 [main] PaymentPage - User sipari�i tamamla butonuna tiklar
+[INFO ] 2022-09-18 17:26:13.706 [main] PaymentPage - User sipari�i tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 17:26:13.742 [main] PaymentPage - User odeme yapmak icin GARANT� PAY i secer
+[INFO ] 2022-09-18 17:26:13.889 [main] PaymentPage - User GARANT� PAY sozlesmeyi kabul et radio buttona tiklar
+[INFO ] 2022-09-18 17:26:14.024 [main] PaymentPage - User GARANT� PAY odeme yap buttona tiklar
+[INFO ] 2022-09-18 17:26:14.132 [main] PaymentPage - User GARANT� PAY odeme ekraninin g�ruldugunu dogrular
+[INFO ] 2022-09-18 17:26:39.620 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 17:26:39.662 [main] Listener - I am in onFinish method Suit_1
+[INFO ] 2022-09-18 17:27:21.913 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 17:27:22.367 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 17:27:22.394 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 17:27:24.194 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 17:27:24.587 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 17:27:29.564 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 17:27:29.741 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 17:27:31.589 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 17:27:33.568 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 17:27:35.693 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 17:27:35.864 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 17:27:37.392 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 17:27:39.774 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 17:27:41.156 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 17:27:41.180 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 17:27:41.397 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 17:27:43.830 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 17:27:49.534 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 17:27:49.625 [main] PaymentPage - User  �deme ekran�n� g�rd���n� do�rular
+[INFO ] 2022-09-18 17:27:50.197 [main] PaymentPage - User sipari�i tamamla butonuna tiklar
+[INFO ] 2022-09-18 17:27:50.326 [main] PaymentPage - User sipari�i tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 17:27:50.360 [main] PaymentPage - User odeme yapmak icin GARANT� PAY i secer
+[INFO ] 2022-09-18 17:27:50.544 [main] PaymentPage - User GARANT� PAY sozlesmeyi kabul et radio buttona tiklar
+[INFO ] 2022-09-18 17:27:50.666 [main] PaymentPage - User GARANT� PAY odeme yap buttona tiklar
+[INFO ] 2022-09-18 17:27:50.768 [main] PaymentPage - User GARANT� PAY odeme ekraninin g�ruldugunu dogrular
+[INFO ] 2022-09-18 17:28:17.037 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 17:28:17.199 [main] Listener - I am in onFinish method Suit_1
