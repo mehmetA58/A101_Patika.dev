@@ -821,3 +821,30 @@ Session ID: b769a3f72f4462175b598564dce7ad17
 [INFO ] 2022-09-18 17:27:50.768 [main] PaymentPage - User GARANTÝ PAY odeme ekraninin göruldugunu dogrular
 [INFO ] 2022-09-18 17:28:17.037 [main] Listener - case1 test is succeed.
 [INFO ] 2022-09-18 17:28:17.199 [main] Listener - I am in onFinish method Suit_1
+[INFO ] 2022-09-18 17:44:08.991 [main] Listener - I am in onStart method Suit_1
+[INFO ] 2022-09-18 17:44:09.575 [main] WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+[INFO ] 2022-09-18 17:44:09.610 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PC\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+[INFO ] 2022-09-18 17:44:12.049 [main] Listener - Test Started: case1
+[INFO ] 2022-09-18 17:44:12.395 [main] MainPage - User go to https://www.a101.com.tr/
+[INFO ] 2022-09-18 17:44:18.059 [main] MainPage - User allowed cookies
+[INFO ] 2022-09-18 17:44:18.359 [main] MainPage - User navigate to https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/
+[INFO ] 2022-09-18 17:44:19.103 [main] ProductPage - User click first product in Dizalti Corap
+[INFO ] 2022-09-18 17:44:22.825 [main] ProductPage - User can see product colour
+[INFO ] 2022-09-18 17:44:24.901 [main] ProductPage - User can click add to cart button
+[INFO ] 2022-09-18 17:44:25.077 [main] ProductPage - User can click view cart button
+[INFO ] 2022-09-18 17:44:26.615 [main] BasketPage - User can click Sepeti Onayla Buttonu
+[INFO ] 2022-09-18 17:44:29.187 [main] OrdersCheckoutPage - User click uye olmadan devam et button in order page
+[INFO ] 2022-09-18 17:44:30.776 [main] OrdersCheckoutPage - User can see email page
+[INFO ] 2022-09-18 17:44:30.813 [main] OrdersCheckoutPage - User can send email
+[INFO ] 2022-09-18 17:44:31.081 [main] AddressPage - User click yeni adres olustur butonuna
+[INFO ] 2022-09-18 17:44:33.625 [main] AddressPage - User  yeni adres olustur inputlarinin doldurur
+[INFO ] 2022-09-18 17:44:39.871 [main] AddressPage - User  Kaydet ve Devam Et butonuna tiklar
+[INFO ] 2022-09-18 17:44:39.999 [main] PaymentPage - User  ödeme ekranýný gördüðünü doðrular
+[INFO ] 2022-09-18 17:44:40.623 [main] PaymentPage - User sipariþi tamamla butonuna tiklar
+[INFO ] 2022-09-18 17:44:40.771 [main] PaymentPage - User sipariþi tamamla butonuna tikladiginda kart bilgileri doldurulmadan ilerleyemedigini dogrular
+[INFO ] 2022-09-18 17:44:40.881 [main] PaymentPage - User odeme yapmak icin GARANTÝ PAY i secer
+[INFO ] 2022-09-18 17:44:41.005 [main] PaymentPage - User GARANTÝ PAY sozlesmeyi kabul et radio buttona tiklar
+[INFO ] 2022-09-18 17:44:41.158 [main] PaymentPage - User GARANTÝ PAY odeme yap buttona tiklar
+[INFO ] 2022-09-18 17:44:41.310 [main] PaymentPage - User GARANTÝ PAY odeme ekraninin göruldugunu dogrular
+[INFO ] 2022-09-18 17:44:46.481 [main] Listener - case1 test is succeed.
+[INFO ] 2022-09-18 17:44:46.674 [main] Listener - I am in onFinish method Suit_1
