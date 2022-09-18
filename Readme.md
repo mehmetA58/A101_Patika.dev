@@ -16,3 +16,4 @@ Parallel Running
 ```
 mvn clean verify
 ```
+![](../../Downloads/A101_patikaCase.gif)
